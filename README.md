@@ -42,9 +42,11 @@ You can be up and running with the demo in a few minutes. Check out the docs for
 your preferred deployment method:
 
 - [Docker](https://opentelemetry.io/docs/demo/docker_deployment/)
+
   🔹 This command will:
     Start all services in detached mode (-d).
     When you stop (Ctrl+C), it removes the containers.
+
   "docker-compose up -d && docker-compose down --volumes --remove-orphans"
   
 - [Kubernetes](https://opentelemetry.io/docs/demo/kubernetes_deployment/)
